@@ -15,10 +15,7 @@
 
 # Dependencies
 
-**TODO: adapt this section**
-
-- `bash`, `curl`, `tar`, and [POSIX utilities](https://pubs.opengroup.org/onlinepubs/9699919799/idx/utilities.html).
-- `SOME_ENV_VAR`: set this environment variable in your shell config to load the correct version of tool x.
+- `bash`, `curl`, and [POSIX utilities](https://pubs.opengroup.org/onlinepubs/9699919799/idx/utilities.html).
 
 # Install
 
@@ -42,7 +39,7 @@ asdf install docker-compose latest
 # Set a version globally (on your ~/.tool-versions file)
 asdf global docker-compose latest
 
-# Now docker-compose commands are available
+# Now docker compose commands are available
 docker compose version
 ```
 
@@ -57,4 +54,4 @@ Contributions of any kind welcome! See the [contributing guide](contributing.md)
 
 # License
 
-See [LICENSE](LICENSE) © [Ricardo Pinto](https://github.com/rmgpinto/)
+See [LICENSE](LICENSE) © [rmgpinto](https://github.com/rmgpinto/)
